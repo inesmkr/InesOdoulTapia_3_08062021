@@ -1,30 +1,33 @@
 :root {
-    --gray: #f5f5f5;
-    --violet: #9356DC;
+    --white: #fafafa;
+    --darkwhite: #f6f6f6;
+    --gray: #eaeaea;
+    --midgray: #7e7e7e;
+    --darkgray: #353535;
+    --purple: #9356DC;
+    --lightpurple: #f5edfe;
     --rose: #FF79DA;
     --green: #99E2D0;
+    --darkgreen: #3b8568;
 }
 
 body {
     margin: 0;
     padding: 0;
-}
-
-p {
     font-family: "Roboto";
 }
+
+/* Header */
 
 .logo {
     display: flex;
     justify-content: center;
     margin: 1rem;
 }
-
 .logo img {
     max-width: 50%;
     height: auto;
 }
-
 .location {
     background-color: var(--gray);
     display: flex;
@@ -33,43 +36,36 @@ p {
     padding-left: 4em;
     box-shadow: inset 0px 3px 5px -2px grey;
 }
-
 .city {
     border: none;
     background-color: var(--gray);
     padding-left: 1rem;
 }
-
-::placeholder {
+.city::placeholder {
     font-weight: bold;
     color: black;
     font-family: "Roboto";
 }
-
 .title {
     text-align: center;    
     padding: 1rem;
     font-family: "Roboto";
 }
-
 .title h1 {
     font-size: x-large;
     padding-right: 2rem;
     padding-left: 2rem;
 }
-
 .title p {
     font-size: smaller;
     padding-right: 2rem;
     padding-left: 2rem;
 }
-
 .button {
     display: flex;
     justify-content: center;
 }
-
-.buttonExplore {
+.buttonExplore {   
     border-radius: 30px;
     border: none;
     padding: 1em;
@@ -78,10 +74,115 @@ p {
     box-shadow: 0px 5px 15px 0px gray;
     width: 200px;
     height: 50px;
+    cursor: pointer;
 }
 
+.container {
+    margin-top: 4rem;
+}
+
+/* How it works */
+
+.howitworks {
+    padding-left: 1rem;
+    font-size: small;   
+}
+.hiwMenu {
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.circle {
+    position: absolute;
+    z-index: 1;
+    left:0;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+    background: var(--purple);
+    border: none;
+    color:var(--white);
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 1rem;
+    margin-left: 5px;
+  }
+.hiwMenu i {
+    padding-right: 2rem;
+    padding-left: 1rem;
+    color: var(--midgray);
+}
+.hiwMenu button {
+    border: none;
+    border-radius: 15px;
+    background-color: var(--darkwhite);
+    box-shadow: 0px 5px 15px 0px #cccccc ;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    width: 350px;
+    height: auto;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.hiwMenu button:hover {
+    background-color: var(--lightpurple);
+}
+.hiwMenu i:hover {
+    color: var(--purple);
+}
+.choice, .compose, .taste {
+    display: flex;
+    align-items: center;
+}
+
+/* Restaurants */
+
+.restau {
+    padding-left: 1rem;
+    font-size: small;
+}
+
+.restMenu {
+    margin-bottom: 4rem;
+}
+
+.restMenu figure {
+    background: white;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    margin: 0 10px 20px 10px;
+    box-shadow: 0 5px 16px #c5c5c5;
+}
+
+.restMenu figcaption {
+    padding-left: 1rem;
+}
+
+.restMenu h3 {
+    line-height: 0.5rem;
+}
+
+.restHeart {
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+
+.restMenu img {
+    background-color: white;
+    border-radius: 15px 15px 0px 0px;
+    cursor: pointer;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Footer */
+
 footer {
-    background-color: rgb(56, 56, 56);
+    background-color: var(--darkgray);
     margin-top: 2rem;
     padding-top: 1rem;
     padding-bottom: 2rem;
@@ -89,32 +190,27 @@ footer {
     color: white;
     font-family: "Roboto";
     font-size: smaller;
-    position: fixed;
+    position: relative;
     width: 100%;
     bottom: 0;
-    left: 0;
 }
-
 .footer h3 {
     padding-left: 0.5rem;
 }
-
 .footer ul {
     display: flex;
     align-items: center;
     margin: 0;
     padding-left: 2rem;
     height: 30px;
+    cursor: pointer;
 }
-
 .mentions h3 {
     padding-left: 0;
 }
-
 .contact h3 {
     padding-left: 0;
 }
-
 .logoFooter img {
     width: 100px;
     height: auto;
