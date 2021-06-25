@@ -17,9 +17,18 @@ body {
     font-family: "Roboto";
 }
 
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
 /* Header */
 
-.logo {
+.logo a {
     display: flex;
     justify-content: center;
     margin: 1rem;
@@ -160,6 +169,7 @@ body {
     padding-left: 1rem;
 }
 
+
 .restMenu h3 {
     line-height: 0.5rem;
 }
@@ -179,6 +189,20 @@ body {
     object-fit: cover;
 }
 
+.restCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.restCard p {
+    font-weight: lighter
+}
+
+.heart {
+    margin-right: 1rem;
+    color: var(--darkgray);
+}
 /* Footer */
 
 footer {
@@ -190,7 +214,6 @@ footer {
     color: white;
     font-family: "Roboto";
     font-size: smaller;
-    position: relative;
     width: 100%;
     bottom: 0;
 }
