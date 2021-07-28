@@ -34,17 +34,23 @@ a:visited {
 }
 
 /* Header */
-
+.title-page {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.return-home {
+    padding-left: 1rem;
+}
 .logo a {
     display: flex;
     justify-content: center;
-    margin: 1rem;
+    margin: 1rem 2rem 1rem 0;
 }
 .logo img {
     max-width: 50%;
     height: auto;
 }
-
 .banner {
     background-image: url(../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
     background-size: cover;
@@ -97,7 +103,7 @@ a:visited {
     font-size: small;
 }
 .heart {
-    margin-right: 2rem
+    margin-right: 2rem;
     color: grey;
   }
   .heart:hover {
@@ -127,6 +133,20 @@ a:visited {
     display: flex;
     justify-content: flex-end;
     margin-top: -1.2rem;
+}
+.meal-check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    color: var(--white);;
+    background-color: var(--green);
+    border-radius: 0px 15px 15px 0px;
+    width: 50px;
+    height: 70px;
+}
+.meal-check:hover {
+    opacity: 1;
 }
 .button {
     display: flex;
