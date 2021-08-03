@@ -10,18 +10,15 @@
     --green: #99E2D0;
     --darkgreen: #3b8568;
 }
-
 body {
     margin: 0;
     padding: 0;
     font-family: "Roboto";
 }
-
 a:link {
     text-decoration: none;
     color: black;
 }
-
 a:visited {
     color: black;
 }
@@ -74,7 +71,7 @@ a:visited {
     display: flex;
     justify-content: center;
 }
-.buttonExplore {   
+.button-explore {   
     border-radius: 30px;
     border: none;
     padding: 1em;
@@ -85,25 +82,24 @@ a:visited {
     height: 50px;
     cursor: pointer;
 }
-.buttonExplore:hover {
+.button-explore:hover {
     background-image: linear-gradient(#9356DC, #FF79DA);
-    transition: fill 1s ease-in;
 }
-
 .container {
     margin-top: 4rem;
 }
 
 /* How it works */
 
-.howitworks {
+.how-it-works {
     padding-left: 1rem;
     font-size: small;   
 }
-.hiwMenu {
+.hiw-menu {
     margin: 1rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .circle {
     z-index: 1;
@@ -120,28 +116,27 @@ a:visited {
     margin-bottom: 1rem;
     margin-right: -20px;
 }
-.hiwMenu i {
+.hiw-menu i {
     padding-right: 2rem;
     padding-left: 1rem;
     color: var(--midgray);
 }
-.hiwMenu button {
+.hiw-menu button {
     border: none;
     border-radius: 15px;
     background-color: var(--darkwhite);
     box-shadow: 0px 5px 15px 0px #cccccc ;
     padding: 1.5rem;
     display: flex;
-    align-items: center;
     width: 350px;
     height: auto;
     margin-bottom: 1rem;
     cursor: pointer;
 }
-.hiwMenu button:hover {
+.hiw-menu button:hover {
     background-color: var(--lightpurple);
 }
-.hiwMenu i:hover {
+.hiw-menu i:hover {
     color: var(--purple);
 }
 .choice, .compose, .taste {
@@ -155,35 +150,28 @@ a:visited {
     padding-left: 1rem;
     font-size: small;
 }
-
-.restMenu {
+.rest-menu {
     margin-bottom: 4rem;
 }
-
-.restMenu figure {
+.rest-menu figure {
     background: white;
     padding-bottom: 5px;
     border-radius: 20px;
     margin: 0 10px 20px 10px;
     box-shadow: 0 5px 16px #c5c5c5;
 }
-
-.restMenu figcaption {
+.rest-menu figcaption {
     padding-left: 1rem;
 }
-
-
-.restMenu h3 {
+.rest-menu h3 {
     line-height: 0.5rem;
 }
-
-.restHeart {
+.rest-heart {
     border: none;
     cursor: pointer;
     background-color: white;
 }
-
-.restMenu img {
+.rest-menu img {
     background-color: white;
     border-radius: 15px 15px 0px 0px;
     cursor: pointer;
@@ -191,22 +179,19 @@ a:visited {
     height: 200px;
     object-fit: cover;
 }
-
-.restCard {
+.rest-card {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-.restCard p {
+.rest-card p {
     font-weight: lighter
 }
-
 .heart {
     margin-right: 2rem;
     color: grey;
-  }
-  .heart:hover {
+}
+.heart:hover {
     animation: fill 1s ease-out;
     background: linear-gradient(#FF79DA, #9356DC);
     -webkit-background-clip: text;
@@ -245,7 +230,7 @@ footer {
 .contact h3 {
     padding-left: 0;
 }
-.logoFooter img {
+.logo-footer img {
     width: 100px;
     height: auto;
     filter: invert(100%);
