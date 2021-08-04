@@ -238,3 +238,92 @@ footer {
     padding-top: 1em;
     padding-left: 2rem;
 }
+
+/** Tablet **/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    h2 {
+        font-size: x-large;
+    }
+    .title h1 {
+        font-size: xx-large;
+    }
+    .title p {
+        font-size: larger;
+    }
+    .button-explore {
+        font-size: larger;
+        width: 250px;
+        height: 60px;
+    }
+    .hiw-menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .hiw-menu button {
+        width: 210px;
+        margin: 1rem;
+    }
+    .circle {
+        margin-top: 1rem;
+        margin-right: -30px;
+    }
+    .buttonChoice, .buttonCompose, .buttonTaste {
+        align-items: center;   
+    }
+    .rest-menu {
+        margin: 1.5rem;
+    }
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 2rem;
+    }
+}
+
+/** Desktop & Laptop **/
+@media only screen and (min-width : 1281px){
+    h2 {
+        font-size: x-large;
+        margin-left: 4rem;
+    }
+    .title h1 {
+        font-size: xx-large;
+    }
+    .title p {
+        font-size: large;
+    }
+    .hiw-menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 5rem 0 5rem;
+    }
+    .hiw-menu button {
+        width: 500px;
+        padding-left: 2rem;
+    }
+    .circle {
+        margin-right: -15px;
+    }
+    .buttonChoice, .buttonCompose, .buttonTaste {
+        display: flex;
+        align-items: center;   
+    }
+    .rest-menu {
+        margin: 0 4rem 0 4rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .rest-menil, .rest-charo, .rest-fran, .rest-sens {
+        width: 100%;
+    }
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 5rem 0 4rem;
+    }
+    .logo-footer {
+        margin-left: 4rem;
+    }
+}
