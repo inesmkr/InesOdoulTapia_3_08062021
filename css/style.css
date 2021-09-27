@@ -267,7 +267,7 @@ footer {
 .footer h3 {
   padding-left: 0.5rem;
 }
-.footer ol {
+.footer li {
   display: flex;
   align-items: center;
   margin: 0;
@@ -333,7 +333,7 @@ footer {
     margin-right: 2rem;
     padding-left: 10px;
   }
-  .footer ol {
+  .footer li {
     display: flex;
     align-items: center;
   }
@@ -432,7 +432,7 @@ footer {
   .logo-footer {
     margin-left: 4rem;
   }
-  .footer ol {
+  .footer li {
     margin-left: 8rem;
   }
 }
