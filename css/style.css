@@ -256,6 +256,7 @@ footer {
   margin-top: 2rem;
   padding-top: 1rem;
   padding-bottom: 2rem;
+  padding-left: 10px;
   list-style: none;
   color: white;
   font-family: "Roboto";
@@ -266,11 +267,11 @@ footer {
 .footer h3 {
   padding-left: 0.5rem;
 }
-.footer ul {
+.footer ol {
   display: flex;
   align-items: center;
   margin: 0;
-  padding-left: 2rem;
+  padding-left: 0.5rem;
   height: 30px;
   cursor: pointer;
 }
@@ -330,6 +331,11 @@ footer {
     display: flex;
     justify-content: space-between;
     margin-right: 2rem;
+    padding-left: 10px;
+  }
+  .footer ol {
+    display: flex;
+    align-items: center;
   }
 }
 /** Tablet landscape **/
@@ -420,9 +426,13 @@ footer {
   .footer {
     display: flex;
     justify-content: space-between;
-    margin: 0 5rem 0 4rem;
+    margin-right: 15rem;
+    padding-left: 0px;
   }
   .logo-footer {
     margin-left: 4rem;
+  }
+  .footer ol {
+    margin-left: 8rem;
   }
 }
