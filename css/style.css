@@ -367,7 +367,7 @@ footer {
     align-items: center;
   }
   .rest-menu {
-    margin: 1.5rem;
+    margin: 1rem;
   }
   .footer {
     display: flex;
@@ -415,7 +415,7 @@ footer {
   .rest-charo,
   .rest-fran,
   .rest-sens {
-    width: 100%;
+    width: 350px;
   }
   .footer {
     display: flex;
