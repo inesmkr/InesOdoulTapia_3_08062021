@@ -37,7 +37,7 @@ Lorque l'utilisateur survol les boutons, la couleur devient plus clair et l'ombr
 - [x] Tablette
 - [x] Desktop
 
-#### Validation
+#### Validation W3C
 
 - [x] W3C HTML
 - [x] W3C CSS
