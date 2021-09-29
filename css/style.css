@@ -271,7 +271,6 @@ footer {
   display: flex;
   align-items: center;
   margin: 0;
-  padding-left: 0.5rem;
   height: 30px;
   cursor: pointer;
 }
@@ -421,7 +420,7 @@ footer {
   .rest-charo,
   .rest-fran,
   .rest-sens {
-    width: 350px;
+    width: 400px;
   }
   .footer {
     display: flex;
@@ -433,6 +432,6 @@ footer {
     margin-left: 4rem;
   }
   .footer li {
-    margin-left: 8rem;
+    margin-left: 6rem;
   }
 }
