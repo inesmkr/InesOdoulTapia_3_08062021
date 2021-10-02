@@ -266,7 +266,7 @@ footer {
 }
 
 /** Desktop & Laptop **/
-@media only screen and (min-width: 1281px) {
+@media only screen and (min-width: 1920px) {
   .title-page {
     display: flex;
     justify-content: flex-start;
@@ -294,9 +294,9 @@ footer {
   }
 }
 /** 4k Desktop **/
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 2560px) {
   .logo {
-    margin-left: 35rem;
+    margin-left: 40rem;
   }
   body {
     width: 80%;
