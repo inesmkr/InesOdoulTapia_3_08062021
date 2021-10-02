@@ -293,3 +293,13 @@ footer {
     margin-left: 6rem;
   }
 }
+/** 4k Desktop **/
+@media only screen and (min-width: 1440px) {
+  .logo {
+    margin-left: 35rem;
+  }
+  body {
+    width: 80%;
+    margin: auto;
+  }
+}
