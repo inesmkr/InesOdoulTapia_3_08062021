@@ -18,10 +18,10 @@ body {
 }
 a:link {
   text-decoration: none;
-  color: var(--white);
+  color: black;
 }
 a:visited {
-  color: var(--white);
+  color: black;
 }
 
 /* Loader */
@@ -280,6 +280,13 @@ footer {
 }
 .contact h3 {
   padding-left: 0;
+}
+.contact a:link {
+  text-decoration: none;
+  color: var(--white);
+}
+.contact a:visited {
+  color: var(--white);
 }
 .logo-footer img {
   width: 100px;
