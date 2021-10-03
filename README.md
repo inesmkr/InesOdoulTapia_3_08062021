@@ -49,3 +49,6 @@ Lorque l'utilisateur survol les boutons, la couleur devient plus clair et l'ombr
 - [x] Mozilla
 
 ![website mock-up](https://github.com/inesmkr/InesOdoulTapia_3_08062021/blob/main/images/ohmyfood.jpg)
+
+
+- [x] Projet validé le 02 octobre 2021
