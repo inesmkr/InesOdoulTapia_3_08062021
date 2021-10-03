@@ -15,6 +15,7 @@ body {
   padding: 0;
   font-family: "Roboto";
   background-color: var(--darkwhite);
+  overflow-x: hidden;
 }
 h2 {
   border-bottom: 4px solid var(--green);
